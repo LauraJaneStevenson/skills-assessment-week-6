@@ -47,9 +47,26 @@ class Tree(object):
 
         """
 
-        # TODO: Complete this function
+        # list of nodes to return
+        r_lst = []
 
-        pass
+        # create list of nodes to visit
+        to_visit = [self.root]
+
+        # loop through to visit list
+        while to_visit:
+
+            # get current node from begining 
+            current = to_visit.pop(0)
+            # check current node's data matches what we're look for
+            if current.data == data:
+                # add current node to return list
+                r_lst.append(current)
+
+            # set to visit list to current node's children
+            to_visit.extend(current.children)
+
+        return r_lst
 
 
 if __name__ == "__main__":

@@ -1,0 +1,55 @@
+Runtime
+-------
+
+1. Runtime for does_string_contain_letter:
+
+O(n)
+
+2. Runtime for duplicate_letters:
+
+O(n^3)? is that a thing? because there are technically three nested loops
+if not its O(n^2)
+
+3. Runtime for duplicate_letters2:
+O(n)
+
+
+Stacks and Queues
+-----------------
+
+
+1. Which would be a better data structure for creating a Stack: a Linked List or 
+   a built-in Python list? Explain why, referencing the runtime requirements for
+   Stack operations (push, pop, etc).
+
+   Either a python list or a linked list would be okay for creating a stack. Because we are only adding and removing items from the end, the runtime complexity would be O(1) using either a linked list or regular python list.
+
+2. Which would be a better data structure for creating a Queue: a Linked List or
+   a built-in Python list? Explain why, referencing the runtime requirements for
+   Queue methods (enqueue, dequeue, etc).
+
+    A linked list would be the better data structure for creating a queue. To remove an item from the front of a python list the runtime is O(n) because it must move every item in the list over one spot after deletion. 
+
+
+
+Trees
+-----
+
+1. Using the diagram in the instructions, in what order would a Breadth First
+   Search (BFS) algorithm visit each node  until finding burritos (starting at
+   food)?
+
+   Food, italian, indian, mexiacan, lasagna, pizza, tikka masala, saag, burritos.
+
+
+2. Using the diagram in the instructions, In what order would a Depth First 
+   Search (DFS) algorithm visit each node until finding Chicago-style (starting
+   at food)? 
+
+   Food, Mexican, enchiladas, tacos, burritos, indian, saag, tikka masala, italian, pizza, sicilian, new york stype chicago style. 
+
+3. How is a binary search tree different from other trees?
+    
+   Binary seach trees are aranged in a way so that each node has a right, and left hand child. In other words, each node, other than the leaf nodes, has two children, one greater than and one less than. 
+
+

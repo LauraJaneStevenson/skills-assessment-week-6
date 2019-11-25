@@ -7,8 +7,7 @@ O(n)
 
 2. Runtime for duplicate_letters:
 
-O(n^3)? is that a thing? because there are technically three nested loops
-if not its O(n^2)
+O(n^2)
 
 3. Runtime for duplicate_letters2:
 O(n)
